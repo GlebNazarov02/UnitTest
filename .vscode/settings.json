@@ -1,6 +1,9 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "d:\\Downloads\\assertj-core-3.23.1.jar"
+        "d:\\Downloads\\assertj-core-3.23.1.jar",
+        "d:\\Downloads\\junit-platform-console-standalone-1.10.0-javadoc.jar",
+        "d:\\Downloads\\junit-jupiter-api-5.9.1.jar",
+        "d:\\Downloads\\junit-platform-commons-1.9.1.jar"
     ]
 }

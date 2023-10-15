@@ -18,8 +18,5 @@ public class calctest {
         assertThatThrownBy(()->Calculator.calculateDiscount(0, 10)).isInstanceOf(RuntimeException.class);
         assertThatThrownBy(()->Calculator.calculateDiscount(100, -10)).isInstanceOf(RuntimeException.class);
         assertThatThrownBy(()->Calculator.calculateDiscount(100, 101)).isInstanceOf(RuntimeException.class);
- 
-
-        System.out.println("Hello world");
 }
 }

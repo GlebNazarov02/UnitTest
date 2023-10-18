@@ -7,14 +7,13 @@ abstract class Vehicle {
   protected int numWheels;
   protected int speed;
 
-  // Конструктор базового класса "Vehicle"
+
   public Vehicle(String company, String model, int yearRelease) {
     this.company = company;
     this.model = model;
     this.yearRelease = yearRelease;
   }
 
-  // Абстрактные методы "testDrive()" и "park()"
   public abstract void testDrive();
   public abstract void park();
 

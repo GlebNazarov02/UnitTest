@@ -17,7 +17,7 @@ public class NumberInIntervalTest {
         boolean result = Number.numberInInterval(100);
         assertFalse(result);
     }
-
+//123
     @Test
     public void testLeft() {
         Number Number = new Number();
